@@ -69,7 +69,7 @@ func Values() {
 }
 
 func Variables() {
-	
+
 	var a = "initial"
 	fmt.Println(a)
 
@@ -162,8 +162,10 @@ func Switch() {
 		fmt.Println("two")
 	case 3:
 		fmt.Println("three")
+	case 4:
+		fmt.Println("four")
 	}
-
+	
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("It's the weekend")
