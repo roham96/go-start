@@ -69,6 +69,7 @@ func Values() {
 }
 
 func Variables() {
+	
 	var a = "initial"
 	fmt.Println(a)
 
